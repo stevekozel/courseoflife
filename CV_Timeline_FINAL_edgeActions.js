@@ -1,6 +1,6 @@
 (function($,Edge,compId){var Composition=Edge.Composition,Symbol=Edge.Symbol;
 //Edge symbol: 'stage'
-(function(symbolName){Symbol.bindElementAction(compId,symbolName,"document","compositionReady",function(sym,e){$('Stage').css({"background-image":"url(http://courseoflife.kosekozel.com/images/seamlesstexture6_1200.png)"});if($.browser.webkit){var objectOutput='';$('.kozel-popover').each(function(i,popover){objectOutput=objectOutput+'<object class="hiddensvg" height="1" width="1" data="'+$(popover).attr("src")+'" type="image/svg+xml" style="width: 1px;height: 1px;pointer-events: none;opacity: 0;overflow: hidden;"></object>';});$('body').append(objectOutput);}});
+(function(symbolName){Symbol.bindElementAction(compId,symbolName,"document","compositionReady",function(sym,e){$('Stage').css({"background-image":"url('http://courseoflife.kosekozel.com/images/seamlesstexture6_1200.png')"});if($.browser.webkit){var objectOutput='';$('.kozel-popover').each(function(i,popover){objectOutput=objectOutput+'<object class="hiddensvg" height="1" width="1" data="'+$(popover).attr("src")+'" type="image/svg+xml" style="width: 1px;height: 1px;pointer-events: none;opacity: 0;overflow: hidden;"></object>';});$('body').append(objectOutput);}});
 //Edge binding end
 Symbol.bindElementAction(compId,symbolName,"${_GRAD-BTTN}","mouseover",function(sym,e){sym.$("TRHS").show();});
 //Edge binding end
