@@ -122,7 +122,7 @@ Symbol.bindElementAction(compId,symbolName,"${_BEHANCE2Copy}","mouseout",functio
 //Edge binding end
 Symbol.bindElementAction(compId,symbolName,"${_BEHANCE2Copy}","click",function(sym,e){window.open("https://www.behance.net/kose_kozel","new");});
 //Edge binding end
-Symbol.bindElementAction(compId,symbolName,"${_LINKEDIN2Copy}","click",function(sym,e){window.open("www.linkedin.com/in/kosekozel/","new");});
+Symbol.bindElementAction(compId,symbolName,"${_LINKEDIN2Copy}","click",function(sym,e){window.open("http://www.linkedin.com/in/kosekozel/","new");});
 //Edge binding end
 Symbol.bindElementAction(compId,symbolName,"${_WORDPRESS2Copy}","click",function(sym,e){window.open("http://kosekozel.com/","new");});
 //Edge binding end
